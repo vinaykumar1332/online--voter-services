@@ -1,0 +1,148 @@
+    
+    /*home-page*/
+
+#homepic{height: 100%;
+     margin: 0px;}
+     
+     
+#homepic{background-image:url("media/pic1.jpg");
+     display:block;
+     background-size:cover;
+     background-repeat: no-repeat;
+     }
+
+.nav{  list-style-type: none;
+       margin-top: 0px;
+       overflow: hidden;
+       display: block;
+       background-color:rgb(251, 253, 253);
+       opacity: 0.5;}
+
+.con1{float:right;
+      display: block;
+      color: rgb(22, 21, 21);
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 1.8em;
+      margin-right: 50px;}
+      
+
+.con1:hover{ background-color: rgb(228, 173, 113);
+             border-radius: 5px;}
+
+
+#box1{margin-top: 30px;}
+
+#text1{ 
+      direction: right;
+      animation-name: myanimation;
+      animation-duration: 80s;
+      animation-fill-mode: none; }
+   @keyframes myanimation{
+      from{
+           front-size: 20px;
+           color: rgb(255, 5, 5);}
+     to{
+          front-size:100px;
+          opacity: 0.8;
+          color:rgb(250, 146, 11);}
+      }
+      
+
+
+    /*user and password in home page*/
+      
+
+      h2{margin-left: 70px;}
+
+    * {box-sizing: border-box;}
+
+    /* Style the input container */
+    .input-container {
+      display: flex;
+      width: 45%;
+      margin-bottom: 15px;
+      padding-left: 20px;
+      ;
+    }
+    
+    /* Style the form icons */
+    .icon {
+      padding: 20px;
+      background: dodgerblue;
+      color: white;
+      min-width: 50px;
+      text-align: center;
+      border-radius: 40px;
+    }
+    
+    /* Style the input fields */
+    .input-field {
+      width: 60%;
+      padding: 10px;
+      outline: none;
+      border-radius: 20px;
+      
+    }
+    
+    .input-field:focus {
+      border: 2px solid dodgerblue;
+    }
+    
+    /* Set a style for the submit button */
+    .btn {
+      background-color: dodgerblue;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      cursor: pointer;
+      width: 10%;
+      opacity: 0.9;
+      margin-left: 20px;
+
+    }
+    
+    .btn:hover {
+      opacity: 1;
+    }
+
+ /*----------------------------------------------*/ 
+
+
+
+
+
+/**about...............**/
+
+#aboutpic{background-image: url("media/pic2.jfif");
+          display:block;
+          background-size:cover;
+          background-repeat: no-repeat;}
+
+
+
+
+
+
+
+
+/*--------login page------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
